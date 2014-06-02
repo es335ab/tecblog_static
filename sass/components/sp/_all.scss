@@ -1,0 +1,47 @@
+/* ==========================================================================
+   components sp all
+   ========================================================================== */
+
+@media screen and (max-width: 568px) {
+  .post-heading {
+    margin-bottom: 8px;
+  }
+  .post-data {
+    .social {
+      clear: both;
+      float: none;
+      padding-top: 10px;
+      li {
+        padding-left: 0;
+        background: none;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .post-heading {
+    font-size: 20px;
+  }
+  .post-section {
+    .section-heading {
+      font-size: 16px;
+    }
+  }
+  .post {
+    ul {
+      li {
+        background-position: left 10px;
+        padding-left: 12px;
+      }
+    }
+    table {
+      th {
+        width: 80px;
+      }
+    }
+  }
+  .relation-block {
+    .relation-heading {
+      margin-bottom: 10px
+    }
+  }
+}

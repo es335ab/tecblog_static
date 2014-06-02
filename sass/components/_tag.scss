@@ -1,0 +1,20 @@
+/* ==========================================================================
+   tag
+   ========================================================================== */
+
+.tag {
+  background-color: #aaa;
+  font-size: 12px;
+  padding: 3px 10px;
+  transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -webkit-transition: 300ms;
+  @include border-radius(4px);
+  &:hover {
+    background-color: #ccc;
+  }
+  a {
+    color: #fff;
+  }
+}

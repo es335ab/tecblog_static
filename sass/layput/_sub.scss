@@ -1,0 +1,33 @@
+/* ==========================================================================
+   sub all
+   ========================================================================== */
+
+.sub {
+  float: right;
+  width: 200px;
+  .sub-content {
+    margin-bottom: 20px;
+  }
+  .list-content {
+    border-top: solid 2px #ccc;
+    padding-top: 20px;
+    .heading-list {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    ul {
+      li {
+        margin-top: 15px;
+      }
+    }
+  }
+  .tags {
+    ul {
+      margin-top: 15px;
+    }
+    .tag {
+      float: left;
+      margin: 0 10px 10px 0;
+    }
+  }
+}

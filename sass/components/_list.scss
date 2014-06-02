@@ -1,0 +1,30 @@
+/* ==========================================================================
+   list
+   ========================================================================== */
+
+.post-content-wrapper {
+  ol {
+    padding-left: 22px;
+    margin-bottom: 40px;
+    li {
+      margin-bottom: 1em;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.post {
+  ul {
+    margin-bottom: 40px;
+    li {
+      padding-left: 22px;
+      background: url(../img/list.png) left 8px no-repeat;
+      margin-bottom: 1em;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

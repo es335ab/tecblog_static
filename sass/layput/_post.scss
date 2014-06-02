@@ -1,0 +1,24 @@
+/* ==========================================================================
+   post all
+   ========================================================================== */
+
+.post {
+  background-color: #fff;
+  padding: 40px;
+  width: 679px;
+  border-right: solid #d5d5d5 1px;
+  border-bottom: solid #d5d5d5 1px;
+  margin-bottom: 40px;
+  .post-content-wrapper {
+    p {
+      margin-bottom: 40px;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.post-wrap {
+  float: left;
+}

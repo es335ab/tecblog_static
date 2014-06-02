@@ -1,0 +1,26 @@
+/* ==========================================================================
+   header
+   ========================================================================== */
+
+.header {
+  background-color: #fff;
+  .author-corporate {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    img {
+      width: 146px;
+      height: 60px;
+    }
+  }
+  .site-title {
+    height: 106px;
+    position: relative;
+    line-height: 0;
+    img {
+      position: absolute;
+      top: 5px;
+      width: 884px;
+      height: 110px;
+    }
+  }
+}

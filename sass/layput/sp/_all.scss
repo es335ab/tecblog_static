@@ -1,0 +1,68 @@
+/* ==========================================================================
+   layout sp all
+   ========================================================================== */
+
+@media screen and (max-width: 568px) {
+  .in {
+    width: auto;
+    padding: 10px;
+  }
+  .post_sub {
+    padding-top: 20px;
+  }
+  .header {
+    width: 100%;
+    .author-corporate {
+      display: none;
+    }
+    .site-title {
+      height: 28px;
+      text-align: center;
+      img {
+        width: 221px;
+        height: auto;
+        position: static;
+        top: 0;
+      }
+    }
+  }
+  .post {
+    padding: 10px;
+    width: auto;
+    margin-bottom: 40px;
+    border: none;
+    div,
+    p,
+    ul,
+    ol   {
+      line-height: 1.8;
+    }
+    &:last-child {
+      margin-bottom: 40px;
+    }
+  }
+  .sub {
+    float: none;
+    clear: both;
+    width: auto;
+    .list-content {
+      border-width: 1px;
+    }
+  }
+  .footer {
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

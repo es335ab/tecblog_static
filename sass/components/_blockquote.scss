@@ -1,0 +1,21 @@
+/* ==========================================================================
+   blockquote
+   ========================================================================== */
+
+.blockquote-block {
+  margin-bottom: 40px;
+  blockquote {
+    display: block;
+    margin: 0 0 5px;
+    padding: 15px 15px 15px 40px;
+    background-color: #f9f9f9;
+    background-image: url(../img/icon_bq.png) ;
+    background-position: 10px 16px;
+    background-repeat: no-repeat;
+    border-left: solid 2px #0081cc;
+  }
+  .quoted-link {
+    text-align: right;
+    margin-bottom: 0;
+  }
+}

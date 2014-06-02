@@ -1,0 +1,30 @@
+/* ==========================================================================
+   pager-block
+   ========================================================================== */
+
+.pager-block {
+  @include pie-clearfix();
+  //margin: 80px 0 20px;
+  //border-bottom: solid 1px #ccc;
+  margin-top: 80px;
+  padding-bottom: 10px;
+  .pager-prev {
+    float: left;
+    a {
+      padding-left: 18px;
+      background: url(../img/arrow_page_prev.png) left top no-repeat;
+    }
+  }
+  .pager-next {
+    float: right;
+    a {
+      padding-right: 18px;
+      background: url(../img/arrow_page_next.png) right top no-repeat;
+    }
+  }
+}
+
+.post .post-content-wrapper .pager-prev,
+.post .post-content-wrapper .pager-next {
+  margin-bottom: 0;
+}

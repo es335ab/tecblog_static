@@ -1,0 +1,21 @@
+/* ==========================================================================
+   post-data
+   ========================================================================== */
+
+.post-data {
+  @include pie-clearfix();
+  margin-bottom: 36px;
+  .meta {
+    float: left;
+  }
+  .social {
+    float: right;
+    margin-bottom: 0;
+    li {
+      float: left;
+      padding-left: 0;
+      background: none;
+      margin-bottom: 0;
+    }
+  }
+}
