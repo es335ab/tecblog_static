@@ -26,6 +26,12 @@
       }
     }
   }
+  .post-wrap {
+    float: none;
+  }
+  .post-content-wrapper {
+    word-wrap: break-word;
+  }
   .post {
     padding: 10px;
     width: auto;
