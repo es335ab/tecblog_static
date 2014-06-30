@@ -46,6 +46,10 @@
     &:last-child {
       margin-bottom: 40px;
     }
+    img {
+      max-width: 280px !important;
+      height: auto !important;
+    }
   }
   .sub {
     float: none;
