@@ -13,16 +13,19 @@
   .header {
     width: 100%;
     .author-corporate {
+      float: none;
       display: none;
     }
     .site-title {
-      height: 28px;
+      float: none;
       text-align: center;
-      img {
-        width: 221px;
-        height: auto;
-        position: static;
-        top: 0;
+      height: 70px;
+      padding: 5px 0 0;
+      a {
+        font-size: 28px;
+      }
+      .title-text {
+        font-size: 14px;
       }
     }
   }
@@ -57,6 +60,8 @@
     width: auto;
     .list-content {
       border-width: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
   .footer {

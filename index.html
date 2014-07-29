@@ -8,7 +8,12 @@
 <header class="header">
   <div class="in">
     <p class="author-corporate"><img src="./img/logo.png" alt="Recruit Lifestyle Co.,Ltd."></p>
-    <h1 class="site-title"><img src="./img/site_name.png" alt="Techlife in RLS"></h1>
+    <h1 class="site-title">
+      <a href="/" id="blogLogo">
+        <span style="color: rgb(127, 191, 114);">T</span><span style="color: rgb(191, 118, 114);">e</span><span style="color: rgb(114, 142, 191);">c</span><span style="color: rgb(114, 191, 131);">h</span><span style="color: rgb(172, 191, 114);">l</span><span style="color: rgb(191, 114, 188);">i</span><span style="color: rgb(191, 114, 139);">f</span><span style="color: rgb(191, 118, 114);">e</span>&nbsp;&nbsp;&nbsp;<span style="color: rgb(157, 191, 114);">i</span><span style="color: rgb(114, 191, 150);">n</span>&nbsp;&nbsp;&nbsp;<span style="color: rgb(149, 191, 114);">R</span><span style="color: rgb(184, 191, 114);">L</span><span style="color: rgb(191, 114, 114);">S</span>
+      </a><br>
+      <span class="title-text">リクルートライフスタイル開発者ブログ</span>
+    </h1>
   </div>
 </header>
 
@@ -149,7 +154,7 @@ hoge = {<br>
 
 <div class="sub">
   <div class="sub-content center">
-    <a href="#"><img src="./img/bn_recruit.png" alt="採用ページはこちら"></a>
+    <a href="#" class="btn-recruit">採用ページはこちら</a>
   </div>
   <section class="sub-content list-content">
     <h1 class="heading-list">カテゴリー</h1>
@@ -208,6 +213,31 @@ hoge = {<br>
   </div>
 </footer>
 
+<script src="./js/jquery-latest.js"></script>
+<script src="./js/Please-compressed.js"></script>
+<script>
+  $(function() {
+    var $blogLogo = $('#blogLogo');
+    var $blogLogoChild = $blogLogo.children('span');
+    $blogLogoChild.each(function() {
+      var $this = $(this);
+      var color = Please.make_color();
+      $this.css({
+        'color': color
+      });
+    });
+
+    setInterval(function() {
+      $blogLogoChild.each(function() {
+        var $this = $(this);
+        var color = Please.make_color();
+        $this.css({
+          'color': color
+        });
+      });
+    }, 3000)
+  });
+</script>
 
 </body>
 </html>

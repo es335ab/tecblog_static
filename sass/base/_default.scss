@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-  background-color: #eee;
+  background-color: #fff;
   font-size: 14px;
   line-height: 1.5;
   color: #343434;
@@ -20,4 +20,11 @@ table {
 
 .center {
   text-align: center !important;
+}
+
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://fonts.gstatic.com/s/monoton/v5/E1qpC-_4m0LngvlMPmKrlgLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }

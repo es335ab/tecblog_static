@@ -3,24 +3,37 @@
    ========================================================================== */
 
 .header {
-  background-color: #fff;
+  background-color: #E4E4E4;
+  background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+  @include background-size(13px, 29px, 37px, 53px);
+  margin-bottom: 40px;
   .author-corporate {
-    padding-top: 15px;
-    margin-bottom: 15px;
+    float: right;
+    padding-top: 30px;
+    margin: 15px 0;
     img {
-      width: 146px;
-      height: 60px;
+      width: 110px;
+      height: 45px;
     }
   }
   .site-title {
-    height: 106px;
-    position: relative;
-    line-height: 0;
-    img {
-      position: absolute;
-      top: 5px;
-      width: 884px;
-      height: 110px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 90px;
+    font-family: 'Monoton', cursive;
+    padding: 10 0;
+    float: left;
+    a {
+      font-size: 40px;
+      span {
+        @include transition-property(color);
+        @include transition-duration(2s);
+        @include transition-timing-function(ease-in);
+      }
+    }
+    .title-text {
+      font-size: 16px;
+      color: #999;
     }
   }
 }

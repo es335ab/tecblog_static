@@ -5,5 +5,12 @@
 .img-block {
   text-align: center;
   margin: 0 auto 40px;
+  background-color: #F6F6F6;
+  padding: 20px 0;
+}
 
+.post .img-block {
+  .caption-text {
+    margin-bottom: 0;
+  }
 }

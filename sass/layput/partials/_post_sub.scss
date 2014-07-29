@@ -4,4 +4,7 @@
 
 .post_sub {
   padding-top: 40px;
+  &.in {
+    padding: 0;
+  }
 }
